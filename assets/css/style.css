@@ -17,7 +17,7 @@ body{
 #grupo-muscular{
     background-color: #5F7ADB;
     margin: auto;
-    width: 450px;
+    width: 550px;
     height: 60px;
     display: flex;
     border-radius: 20px;
@@ -44,7 +44,7 @@ body{
 #ex{
     background-color: #2E3239;
     margin: auto;
-    width: 450px;
+    width: 550px;
     display: flex;
     border-radius: 20px;
     margin-bottom: 20px;
@@ -69,7 +69,7 @@ body{
 }
 
 #ex-nome-info{
-    font-size: 9pt;
+    font-size: 11pt;
     color: #f1f1f1;
     margin: auto;
     text-align: center;
@@ -92,7 +92,7 @@ body{
 
 #descanso{
     display: block;
-    font-size: 9pt;
+    font-size: 11pt;
     border: 1px solid #f1f1f1;
     padding: 5px;
     border-radius: 8px;
@@ -101,7 +101,7 @@ body{
 
 #aquecimento{
     display: block;
-    font-size: 9pt;
+    font-size: 11pt;
     border: 1px solid #f1f1f1;
     padding: 5px;
     border-radius: 8px;
@@ -117,10 +117,9 @@ input[type="checkbox"] {
     width: 20px; 
     height: 20px;
     -webkit-appearance: none;
-    margin-left: 10px;
 }
     input[type="checkbox"] {
-        transform: scale(1.2);
+        transform: scale(1.5);
         border: 1px solid #f1f1f1;
         border-radius: 15px;
         cursor: pointer;
@@ -129,8 +128,59 @@ input[type="checkbox"] {
       input[type="checkbox"]:checked {
         background-color: #A2B2EE;
         border: none;
-        transform: scale(1.5);
+        transform: scale(2);
         transition: 1s;
       }
 
+      @media screen and (max-width: 600px){
+        #grupo-muscular{
+            width: 390px;
+            height: 60px;
+        }
 
+        #ex{
+            width: 390px;
+        }
+
+        #img-ex{
+            width: 85px;
+        }
+
+        #ex-nome-info{
+            font-size: 8pt;
+            align-items: center;
+            text-align: center;
+            display: block;
+        }
+
+        #descanso{
+            display: block;
+            font-size: 8pt;
+            border: 1px solid #f1f1f1;
+            padding: 5px;
+            border-radius: 8px;
+            margin-top: 8px;
+        }
+        
+        #aquecimento{
+            display: block;
+            font-size: 8pt;
+            border-radius: 8px;
+            margin-top: 8px;
+        }
+
+        input[type="checkbox"] {
+            transform: scale(1.1);
+            border: 1px solid #f1f1f1;
+            border-radius: 15px;
+            cursor: pointer;
+            margin-left: 15px;
+          }
+          
+          input[type="checkbox"]:checked {
+            background-color: #A2B2EE;
+            border: none;
+            transform: scale(1.5);
+            transition: 1s;
+          }
+      }
