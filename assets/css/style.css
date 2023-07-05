@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #26292B;
+   /* background-color: #2E3239;
+    background-color: #5F7ADB;
+    background-color: #A2B2EE;*/
+    font: normal 15pt sans-serif;
+}
+/*Site Header*/
+
+/*fim header*/
+
+#grupo-muscular{
+    background-color: #5F7ADB;
+    margin: auto;
+    width: 550px;
+    height: 60px;
+    display: flex;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid #f1f1f1;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.329);
+    cursor: pointer;
+}
+
+#grupo-muscular:hover{
+    background-color:#4257a0;
+    transition: 1.5s;
+}
+
+#grupo-muscular h1{
+    color: #f1f1f1;
+    text-align: center;
+    display: flexbox;
+    margin: auto;
+    user-select: none;
+}
+
+#ex{
+    background-color: #2E3239;
+    margin: auto;
+    width: 550px;
+    display: flex;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid #f1f1f1;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.329);
+}
+
+#img-ex{
+    margin: 20px;
+    width: 100px;
+    border-radius: 20px;
+    border: 1px solid #f1f1f1;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
+    align-items: center;
+}
+
+#ex-nome{
+    width: 120px;
+    height: 120px;
+    margin: auto; 
+}
+
+#ex-nome-info{
+    font-size: 11pt;
+    color: #f1f1f1;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    user-select: none;
+    
+}
+
+#ex-info{
+    text-align: center;
+    display: flexbox;
+    margin: auto;
+
+    user-select: none;
+}
+
+#ex p{
+    color: #f1f1f1;
+}
+
+#descanso{
+    display: block;
+    font-size: 11pt;
+    border: 1px solid #f1f1f1;
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#aquecimento{
+    display: block;
+    font-size: 11pt;
+    border: 1px solid #f1f1f1;
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#checkbox{
+    width: 50px;
+    margin: auto;
+}
+
+input[type="checkbox"] {
+    width: 20px; 
+    height: 20px;
+    -webkit-appearance: none;
+}
+    input[type="checkbox"] {
+        transform: scale(1.5);
+        border: 1px solid #f1f1f1;
+        border-radius: 15px;
+        cursor: pointer;
+      }
+      
+      input[type="checkbox"]:checked {
+        background-color: #A2B2EE;
+        border: none;
+        transform: scale(2);
+        transition: 1s;
+      }
+
+
